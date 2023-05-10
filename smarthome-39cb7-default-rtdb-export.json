@@ -1,0 +1,46 @@
+{
+  "Bedroom": {
+    "CB1": "ON",
+    "CB2": "ON",
+    "CB4": "ON",
+    "D_AIR": "ON",
+    "D_BULB_01": "ON",
+    "D_BULB_02": "ON",
+    "D_Curtain": "OFF",
+    "D_FAN": "OFF",
+    "D_Television": "ON",
+    "anhsang": "OFF",
+    "doam": "OFF",
+    "nhietdo": "OFF"
+  },
+  "Kitchen": {
+    "CB1": "OFF",
+    "CB2": "OFF",
+    "CB3": "ON",
+    "CB4": "ON",
+    "D_BULB_01": "ON",
+    "D_BULB_02": "OFF",
+    "D_Coffee": "ON",
+    "D_FAN": "ON",
+    "D_Fridge": "OFF",
+    "D_Stove": "ON",
+    "anhsang": "OFF",
+    "doam": "OFF",
+    "khigas": "OFF",
+    "nhietdo": "OFF"
+  },
+  "Living_Room": {
+    "CB1": "OFF",
+    "CB2": "OFF",
+    "CB4": "OFF",
+    "D_AIR": "ON",
+    "D_BULB_01": "ON",
+    "D_BULB_02": "OFF",
+    "D_FAN": "ON",
+    "D_Television": "ON",
+    "D_Vaccum": "OFF",
+    "anhsang": "OFF",
+    "doam": "OFF",
+    "nhietdo": "OFF"
+  }
+}

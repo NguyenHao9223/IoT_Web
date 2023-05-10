@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kitchen Room</title>
+    <link rel="shortcut icon" href="./img/kitchen.png" type="image/x-icon">
+    <link rel="stylesheet" href="KT.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="box1">
+            <a href="./Layout.html">
+                <i class="fas fa-home" style="color: white; font-size: 50px;" align="left"></i>
+            </a>
+            <img id="logo_img" src="./img/hcmute.png" align="right" alt="img" style="width: 7%; margin-right: 2%;">
+            <h1 style="color: red; font-family: Times" class="name"> THỰC TẬP CƠ SỞ ỨNG DỤNG IOT </h1>
+            <h1 style="color: yellow ; font-family: Times" class="name"> NHÀ THÔNG MINH </h1>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box2">
+            <p style="color: white;" align="center">KITCHEN ROOM</p>
+                <div class="row">
+                    <div>
+                        <a href="./LR.html">
+                            <button class="device_1" align="center">
+                            </button>
+                        </a>     
+                    </div>
+                    <div>
+                        <a href="./BR.html">
+                            <button class="device_2">
+                            </button>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./KT.html">
+                            <button class="device_3">
+                            </button>
+                        </a>
+                    </div>
+                </div> 
+        </div>
+        <div class="box3">
+            <p style="color: white;" >DEVICE</p>
+            <div class="row1">
+                <div class="row2">
+                    <div class="Slide">
+                        <img id="cb1_img" src="./img/tempon.png" alt="img" style="width: 9vw;" class="CB">
+                        <div id="SliderNgangValue1" style="color: white;"></div>
+                        <input type="range" min="0" max="1" value="1" class="slider" id="SliderNgangId1">
+                        <h3 style="color: black;" class="text">  Temp: <span style="color: brown ;" id="Temperature">None</span></h3> 
+                    </div>
+                    <div class="Slide">
+                        <img id="cb2_img" src="./img/humon.png" alt="img" style="width: 9vw;" class="CB">
+                        <div id="SliderNgangValue2" style="color: white;"></div>
+                        <input type="range" min="0" max="1" value="1" class="slider" id="SliderNgangId2">
+                        <h3 style="color: black;" class="text"> Humi: <span style="color: brown ;" id="Humidity">None</span></h3>
+                    </div> 
+                    <div class="Slide">
+                        <img id="cb3_img" src="./img/gason.png" alt="img" style="width: 9vw;" class="CB">
+                        <div id="SliderNgangValue3" style="color: white;"></div>
+                        <input type="range" min="0" max="1" value="1" class="slider" id="SliderNgangId3">
+                        <h3 style="color: black;" class="text">  Gas: <span style="color: brown ;" id="GAS">None</span></h3>
+                    </div>
+                    <div class="Slide">
+                        <img id="cb4_img" src="./img/ON.png" alt="img" style="width: 9vw;" class="CB">
+                        <div id="SliderNgangValue4" style="color: white;"></div>
+                        <input type="range" min="0" max="1" value="1" class="slider" id="SliderNgangId4">
+                        <h3 style="color: black;" class="text">Light: <span style="color: brown ;" id="Light">None</span></h3>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="device">
+                        <img id="d01_img" src="./img/light_bulb_off.png" alt="img" style="width:9vw" class="CB">
+                        <p style="color: white ">Bulb 01</p>
+                        <div>
+                            <button id="d01_on"  class="btn1">ON</button>
+                            <button id="d01_off" class="btn2">OFF</button>
+                        </div>	   
+                    </div>
+                    <div class="device">
+                        <img id="d02_img" src="./img/light_bulb_off.png" alt="img" style="width:9vw" class="CB">
+                        <p style="color: white">Bulb 02</p>
+                        <div>
+                            <button id="d02_on"  class="btn1">ON</button>
+                            <button id="d02_off" class="btn2">OFF</button>
+                        </div>	   
+                    </div> 
+                    <div class="device">
+                        <img id="d03_img" src="./img/fridgeoff.png" alt="img" style="width:9vw" class="CB">
+                        <p style="color: white ">Fridge</p>
+                        <div>
+                            <button id="d03_on"  class="btn1">ON</button>
+                            <button id="d03_off" class="btn2">OFF</button>
+                        </div>	   
+                    </div>
+                    <div class="device">
+                        <img id="d04_img" src="./img/coffeeoff.png" alt="img" style="width:9vw" class="CB">
+                        <p style="color: white ">Coffee</p>
+                        <div>
+                            <button id="d04_on"  class="btn1">ON</button>
+                            <button id="d04_off" class="btn2">OFF</button>
+                        </div>	   
+                    </div>
+                    <div class="device">
+                        <img id="ml_img" src="./img/stoveoff.png" alt="img" style="width:9vw" class="CB">
+                        <p style="color: white ">Stove</p>
+                        <div>
+                            <button id="ml_on"  class="btn1">ON</button>
+                            <button id="ml_off" class="btn2">OFF</button>
+                        </div>	   
+                    </div>
+                    <div class="device">
+                        <img id="q_img" src="./img/fanoff.png" alt="img" style="width:8vw" class="CB">
+                        <p style="color: white ">Fan</p>
+                        <div>
+                            <button id="q_on"  class="btn1">ON</button>
+                            <button id="q_off" class="btn2">OFF</button>
+                        </div>	   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="box4">
+            <div class="clock">
+                <div class="hour">
+                    <div   div class="hr" id="hr"></div>
+                </div>
+                <div class="min">
+                    <div class="mn" id="mn"></div>
+                </div>
+                <div class="sec">
+                    <div class="sc" id="sc"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="card">
+                <div class="card_img">
+                    <img src="./img/avtfacebook.jpg" alt="img" width="300px">
+                </div>
+                <h2 > Nguyễn Văn Hào</h2>
+                <h3 style="text-align: center; margin: auto;"> ( 20119223 )</h3>
+                <p style="margin: 15px;"> ( Computer Engineering )</p>
+                <div class="card__social">
+                    <a href="https://github.com/NguyenHao9223/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nguyenhao2908/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@nghao5970" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nguyenhao5970/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCtnPG4HDRRpxDMVa7aZxjGQ" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitter.com/HoNguyn55430636" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+               <a href="https://www.facebook.com/nguyenhao2908/" target="_blank"> <button > Follow Me </button></a>
+            </div>
+        </div>
+        <div class="box6">
+            <h1>For more information</h1>
+            <h2>Hello! Here is some personal information about myself.
+                <i class="fas fa-grin-stars"></i>
+            </h2>
+            <h3><i class="fas fa-birthday-cake"></i>: 29-08-2002</h3>
+            <h3><i class="fas fa-mars"></i>: Male</h3>
+            <h3><i class="fas fa-phone-square-alt"></i>: 0975165970</h3>
+            <h3><i class="fas fa-envelope"></i>: 20119223@student.hcmute.edu.vn</h3>
+            <h3><i class="fas fa-location-arrow"></i>: 484 Le Van Viet Street, Tang Nhon Phu A Ward, Thu Duc City </h3>
+            <h3><i class="fas fa-university"></i>: Student at Ho Chi Minh City University of Technology and Education</h3>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script> 
+	<script src="KT.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>

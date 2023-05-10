@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Layout</title>
+    <link rel="shortcut icon" href="img/home.png" type="image/x-icon">
+    <link rel="stylesheet" href="Layout.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="box1">
+            <img id="logo_img" src="./img/hcmute.png" align="right" alt="img" style="width: 7%; margin-right: 2%;">
+            <h1 style="color: red; font-family: Times" class="name"> THỰC TẬP CƠ SỞ ỨNG DỤNG IOT </h1>
+            <h1 style="color: yellow ; font-family: Times" class="name"> NHÀ THÔNG MINH </h1>
+            <a href="https://console.firebase.google.com/project/tt-iot-nguyenvanhao/database/tt-iot-nguyenvanhao-default-rtdb/data" 
+            style="color: wheat" class="name"  target="_blank">Google Firebase</a>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box2">
+            <p style="color: rgba(28, 111, 185, 0.813); font-size: 30px; text-align: center;">ROOM</p>
+                <div class="row">
+                    <div>
+                        <a href="./LR.html">
+                            <button class="device_1" align="center">
+                            </button>
+                        </a>     
+                    </div>
+                    <div>
+                        <a href="./BR.html">
+                            <button class="device_2">
+                            </button>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./KT.html">
+                            <button class="device_3">
+                            </button>
+                        </a>
+                    </div>
+                </div> 
+            <div class="box2_Room row">
+                <p style="color: rgba(28, 111, 185, 0.813); font-family: Times; flex: 1; margin-left: 210px;" class="name"> LIVING ROOM </p>
+                <p style="color: rgba(28, 111, 185, 0.813); font-family: Times; flex: 1; margin-left: 80px;" class="name"> BED ROOM </p>
+                <p style="color: rgba(28, 111, 185, 0.813); font-family: Times; flex: 1; margin-left: 45px;" class="name"> KITCHEN ROOM </p>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="box4"> 
+            <div class="clock">
+                <div class="hour">
+                    <div   div class="hr" id="hr"></div>
+                </div>
+                <div class="min">
+                    <div class="mn" id="mn"></div>
+                </div>
+                <div class="sec">
+                    <div class="sc" id="sc"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="card">
+                <div class="card_img">
+                        <img src="./img/avtfacebook.jpg" alt="img" width="300px">
+                </div>
+                <h2 > Nguyễn Văn Hào</h2>
+                <h3 style="text-align: center; margin: auto;"> ( 20119223 )</h3>
+                <p style="margin: 15px;"> ( Computer Engineering )</p>
+                <div class="card__social">
+                    <a href="https://github.com/NguyenHao9223/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nguyenhao2908/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@nghao5970" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nguyenhao5970/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCtnPG4HDRRpxDMVa7aZxjGQ" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitter.com/HoNguyn55430636" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+               <a href="https://www.facebook.com/nguyenhao2908/" target="_blank"> <button > Follow Me </button></a>
+            </div>
+        </div>
+        <div class="box6">
+            <h1>For more information</h1>
+            <h2>Hello! Here is some personal information about myself.
+                <i class="fas fa-grin-stars"></i>
+            </h2>
+            <h3><i class="fas fa-birthday-cake"></i>: 29-08-2002</h3>
+            <h3><i class="fas fa-mars"></i>: Male</h3>
+            <h3><i class="fas fa-phone-square-alt"></i>: 0975165970</h3>
+            <h3><i class="fas fa-envelope"></i>: 20119223@student.hcmute.edu.vn</h3>
+            <h3><i class="fas fa-location-arrow"></i>: 484 Le Van Viet Street, Tang Nhon Phu A Ward, Thu Duc City </h3>
+            <h3><i class="fas fa-university"></i>: Student at Ho Chi Minh City University of Technology and Education</h3>
+        </div>
+    </div>
+    <script src="clock.js"></script>  
+</body>
+</html>
